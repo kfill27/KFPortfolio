@@ -1,0 +1,82 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #fde36e;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/*Header Section********************************/
+
+nav a {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	margin: 0 30px;
+}
+
+.navlink:hover {
+	border-top: 2px solid #fff;
+	text-decoration: none;
+	color: #FDE36E;
+}
+
+/*Jumbotron Section********************************/
+
+.jumbotron {
+	background-image: url(https://download.unsplash.com/photo-1421284621639-884f4129b61d);
+	background-size: cover;
+	height: 600px;
+} 
+
+.jumbo-text {
+	color: #fff;
+	margin-top: 100px;
+}
+
+/*About Me Section********************************/
+.about-me-text {
+	width:50%;
+	float: right;
+	margin-right: 100px;
+}
+
+.about-me-photo {
+	margin-left: 100px;
+}
+
+
+/*Contact Section********************************/
+.contact-section {
+	background-image: url(https://download.unsplash.com/reserve/vof4H8A1S02iWcK6mSAd_sarahmachtsachen.com_TheBeach.jpg);
+	background-size: cover;
+	height: 400px;
+}
+
+.contact-form {
+	width: 50%;
+}
+
+/*Socail Media Section********************************/
+.social-media li{
+	display: inline-block;
+	padding: 0 30px;
+	color: #333;
+}
+
+.social-media {
+	text-align: center;
+}
+
+/*Footer Section********************************/
+
+
+
+
+
+
+
