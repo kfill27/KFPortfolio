@@ -85,6 +85,11 @@ h1 small {
 	height: 500px;
 }
 
+.contact-section h1 {
+	color: #333;
+	padding-top: 50px;
+}
+
 form {
 	margin-top: 50px;
 	max-width: 60%;
@@ -103,7 +108,7 @@ form {
 }
 
 .social-media li a {
-	color: #fde36e;
+	color: #333;
 }
 
 .social-media li a:hover {
@@ -111,7 +116,15 @@ form {
 }
 
 .footer .copyright {
+	margin-top: 40px;
 	padding: 15px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #333;
+}
+
+.social-media {
+	background: #fde36e;
 }
 
 
