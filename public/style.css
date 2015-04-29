@@ -1,5 +1,6 @@
 body {
 	font-family: 'Raleway', sans-serif;
+	padding-top: 50px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11,18 +12,26 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Header Section********************************/
 
+.navbar {
+	height: 70px;
+}
+
+nav {
+	background: #fff;
+}
+
 nav a {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
-	color: #fff;
+	color: #fde36e;
 	margin: 0 30px;
 }
 
 .navlink:hover {
 	border-top: 2px solid #fff;
 	text-decoration: none;
-	color: #FDE36E;
+	color: #fde36e;
 }
 
 /*Jumbotron Section********************************/
@@ -30,53 +39,80 @@ nav a {
 .jumbotron {
 	background-image: url(https://download.unsplash.com/photo-1421284621639-884f4129b61d);
 	background-size: cover;
-	height: 600px;
+	height: 800px;
 } 
 
 .jumbo-text {
 	color: #fff;
-	margin-top: 100px;
+	margin-top: 70px;
+}
+
+h1 small {
+	color: #fde36e;
 }
 
 /*About Me Section********************************/
+#page1 {
+	margin-top: 100px;
+	height: 600px;
+	
+}
+
 .about-me-text {
 	width:50%;
 	float: right;
 	margin-right: 100px;
 }
 
-.about-me-photo {
-	margin-left: 100px;
+/*Portfolio Section********************************/
+#page2 {
+	height: 600px;
+}
+
+.portfolio h1, .contact-section h1 {
+	margin-bottom: 75px;
 }
 
 
 /*Contact Section********************************/
+/*#page3 {
+
+}*/
+
 .contact-section {
 	background-image: url(https://download.unsplash.com/reserve/vof4H8A1S02iWcK6mSAd_sarahmachtsachen.com_TheBeach.jpg);
 	background-size: cover;
-	height: 400px;
+	height: 500px;
 }
 
-.contact-form {
-	width: 50%;
+form {
+	margin-top: 50px;
+	max-width: 60%;
+	margin: auto;
 }
 
-/*Socail Media Section********************************/
-.social-media li{
+/*Footer/ Social Media Section********************************/
+.social-media ul {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.social-media li { 
 	display: inline-block;
 	padding: 0 30px;
-	color: #333;
 }
 
-.social-media {
-	text-align: center;
+.social-media li a {
+	color: #fde36e;
 }
 
-/*Footer Section********************************/
+.social-media li a:hover {
+	
+}
 
-
-
-
+.footer .copyright {
+	padding: 15px;
+}
 
 
 
