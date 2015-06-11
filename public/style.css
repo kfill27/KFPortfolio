@@ -81,6 +81,10 @@ h1 small {
 	margin-bottom: 75px;
 }
 
+.thumbnail {
+	width: 350px;
+}
+
 
 /*Contact Section********************************/
 
@@ -138,6 +142,13 @@ form {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	color: #333;
+}
+
+
+/*    Projects Pages    */
+
+#wynkedin-screenshot {
+	max-width: 600px;
 }
 
 
