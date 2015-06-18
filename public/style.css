@@ -64,6 +64,9 @@ h1 small {
 	margin-top: 100px;
 	height: 800px;
 }
+.about-me-photo {
+	border-radius: 50%;
+}
 
 .about-me-background {
 	height: 400px;
