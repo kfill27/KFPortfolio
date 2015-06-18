@@ -42,7 +42,7 @@ nav a {
 .jumbotron {
 	background-image: url(https://download.unsplash.com/photo-1421284621639-884f4129b61d);
 	background-size: cover;
-	height: 800px;
+	height: 600px;
 }
 
 .jumbo-text {
@@ -62,12 +62,16 @@ h1 small {
 /*About Me Section********************************/
 #page1 {
 	margin-top: 100px;
-	height: 600px;
-
+	height: 800px;
 }
 
+.about-me-background {
+	height: 400px;
+/*	background-image: url(kyrafillmore.jpeg);
+	background-size: cover;*/
+}
 .about-me-text {
-	width:50%;
+	width: 40%;
 	float: right;
 	margin-right: 100px;
 }
@@ -83,6 +87,7 @@ h1 small {
 
 .thumbnail {
 	width: 350px;
+	margin: 0 auto;
 }
 
 
